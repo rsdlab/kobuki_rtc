@@ -1,6 +1,6 @@
 KobukiRTC
 ======================
-TurtleBot2 KobukiをRTミドルウエア「OpenRTM-aist」から使うためのプロジェクトです．
+台車移動ロボット「Kobuki」をRTミドルウエア「OpenRTM-aist」から使うためのプロジェクトです．
 株式会社アールティによって開発・メンテナンスされています．
 
 1. 注意:
@@ -15,7 +15,7 @@ TurtleBot2 KobukiをRTミドルウエア「OpenRTM-aist」から使うための�
 Kobukiの購入に関しては下記のウェブサイトより行ってください．すでに購入された方は，[libkobuki配布ページ](http://www.rt-shop.jp/blog/archives/683)よりダウンロードが可能です．
 
 
-[Kobuki販売サイト (アールティウェブショップ)](http://www.rt-shop.jp/index.php?main_page=product_info&cPath=1001_1022&products_id=758)
+[Kobuki販売サイト (アールティウェブショップ)](http://www.rt-shop.jp/index.php?main_page=product_info&cPath=1001_1022&products_id=756)
 
 
 
@@ -37,7 +37,7 @@ OpenRTM-aistのRTCを開発するための環境を整備し，cmakeおよびお
 1. [OpenRTM-aist公式ウェブサイト](http://openrtm.org/ "OpenRTM-aist公式ウェブサイト")
 2. [株式会社アールティ 会社ウェブサイト](http://rt-net.jp/ "株式会社アールティ 会社ウェブサイト")
 3. [株式会社アールティ ウェブショップ](http://rt-shop.jp/ "株式会社アールティ ウェブショップ")
-4. [Kobuki販売ページ](http://www.rt-shop.jp/index.php?main_page=product_info&cPath=1001_1022&products_id=758 "Kobuki販売ページアールティウェブショップ") 
+4. [Kobuki販売ページ](http://www.rt-shop.jp/index.php?main_page=product_info&cPath=1001_1022&products_id=756 "Kobuki販売ページアールティウェブショップ") 
  
 5. ライセンス
 ----------
