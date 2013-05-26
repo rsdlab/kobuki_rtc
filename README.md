@@ -12,7 +12,12 @@ TurtleBot2 KobukiをRTミドルウエア「OpenRTM-aist」から使うための�
 
 本RTコンポーネントは，株式会社アールティが開発している「libkobuki」を利用しております．libkobukiは株式会社アールティでKobukiを購入された方にのみ配布している，マルチプラットフォームで動作するC++言語用Kobuki制御ライブラリです．
 
+Kobukiの購入に関しては下記のウェブサイトより行ってください．すでに購入された方は，[libkobuki配布ページ](http://www.rt-shop.jp/blog/archives/683)よりダウンロードが可能です．
+
+
 [Kobuki販売サイト (アールティウェブショップ)](http://www.rt-shop.jp/index.php?main_page=product_info&cPath=1001_1022&products_id=758)
+
+
 
 2. 動作確認OS
 ------
