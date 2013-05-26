@@ -12,7 +12,7 @@ TurtleBot2 KobukiをRTミドルウエア「OpenRTM-aist」から使うための�
 
 本RTコンポーネントは，株式会社アールティが開発している「libkobuki」を利用しております．libkobukiは株式会社アールティでKobukiを購入された方にのみ配布している，マルチプラットフォームで動作するC++言語用Kobuki制御ライブラリです．
 
-http://www.rt-shop.jp/index.php?main_page=product_info&cPath=1001_1022&products_id=758
+[Kobuki販売サイト (アールティウェブショップ)](http://www.rt-shop.jp/index.php?main_page=product_info&cPath=1001_1022&products_id=758)
 
 2. 動作確認OS
 ------
@@ -29,10 +29,10 @@ OpenRTM-aistのRTCを開発するための環境を整備し，cmakeおよびお
  
 4. 関連情報
 --------
-1. [OpenRTM-aist](http://openrtm.org/ "OpenRTM-aist公式ウェブサイト")
-2. [RT-net](http://rt-net.jp/ "株式会社アールティ 会社ウェブサイト")
-3. [RT-shop](http://rt-shop.jp/ "株式会社アールティ ウェブショップ")
-4. [Kobuki in RT-shop](http://www.rt-shop.jp/index.php?main_page=product_info&cPath=1001_1022&products_id=758 "Kobuki販売ページアールティウェブショップ") 
+1. [OpenRTM-aist公式ウェブサイト](http://openrtm.org/ "OpenRTM-aist公式ウェブサイト")
+2. [株式会社アールティ 会社ウェブサイト](http://rt-net.jp/ "株式会社アールティ 会社ウェブサイト")
+3. [株式会社アールティ ウェブショップ](http://rt-shop.jp/ "株式会社アールティ ウェブショップ")
+4. [Kobuki販売ページ](http://www.rt-shop.jp/index.php?main_page=product_info&cPath=1001_1022&products_id=758 "Kobuki販売ページアールティウェブショップ") 
  
 5. ライセンス
 ----------
