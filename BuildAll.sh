@@ -1,7 +1,7 @@
 #!/bin/bash
 
-mkdir -p build-linux
-cd build-linux
+mkdir -p build-unix
+cd build-unix
 export PKG_CONFIG_PATH=/usr/lib64/pkgconfig/
 cmake ../
 make

@@ -4,7 +4,7 @@
  * @brief Kobuki RTC
  * @date $Date$
  *
- * $Id$
+ * @license MIT lisence
  */
 
 #include "KobukiRTC.h"

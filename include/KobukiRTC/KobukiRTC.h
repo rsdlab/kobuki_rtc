@@ -5,6 +5,7 @@
  * @date  $Date$
  *
  * $Id$
+ * @license MIT License
  */
 
 #ifndef KOBUKIRTC_H
