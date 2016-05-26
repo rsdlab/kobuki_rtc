@@ -1,21 +1,33 @@
 cmake_minimum_required(VERSION 2.8 FATAL_ERROR)
 
+cmake_policy(SET CMP0046 NEW)
+cmake_policy(SET CMP0048 NEW)
+
 project(KobukiRTC)
 string(TOLOWER ${PROJECT_NAME} PROJECT_NAME_LOWER)
 include("${PROJECT_SOURCE_DIR}/cmake/utils.cmake")
 set(PROJECT_VERSION 1.0.0 CACHE STRING "KobukiRTC version")
 DISSECT_VERSION()
 set(PROJECT_DESCRIPTION "Kobuki RTC")
-set(PROJECT_VENDOR "Mizukawa Lab. Shibaura Univ.")
-set(PROJECT_AUTHOR "Mizukawa Lab. Shibaura Univ.")
-set(PROJECT_AUTHOR_SHORT "Mizukawa Lab. Shibaura Univ.")
+set(PROJECT_VENDOR "Mizukawa Lab. Shibaura Institute of Technology")
+set(PROJECT_AUTHOR "Mizukawa Lab. Shibaura Institute of Technology")
+set(PROJECT_AUTHOR_SHORT "Mizukawa Lab. Shibaura Institute of Technology")
 
-set(LIBKOBUKI_DIR $ENV{LIBKOBUKI_ROOT})
-set(LIBKOBUKI_INC_DIR ${LIBKOBUKI_DIR}/include)
+if(WIN32)
+  set(LIBKOBUKI_DIR $ENV{LIBKOBUKI_ROOT})
+elseif(UNIX)
+  set(LIBKOBUKI_DIR /usr/local/)
+endif(WIN32)
+  
+if (WIN32)
+  # Windows Specific Code
+  set(LIBKOBUKI_INC_DIR ${LIBKOBUKI_DIR}/include/)
+elseif (UNIX)
+  set(LIBKOBUKI_INC_DIR ${LIBKOBUKI_DIR}/include/kobuki-1.0)
+endif (WIN32)
+
 set(LIBKOBUKI_LIB_DIR ${LIBKOBUKI_DIR}/lib)
 set(LIBKOBUKI_LIBRARIES kobuki)
-
-
 
 # Add an "uninstall" target
 CONFIGURE_FILE ("${PROJECT_SOURCE_DIR}/cmake/uninstall_target.cmake.in"
